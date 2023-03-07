@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+           box-sizing: border-box;
+        }
+
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+        }
+
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(202, 188, 188);
+        }
+        #fruit{
+            float: left;
+            width: 50%;
+        }
+        #computer{
+            float: right;
+            width: 50%;
+        }
+        #stationary{
+            clear: both;
+            /* float: left; */
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara">kndjkscgslk</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>compters</h3>
+            <p id="computerpara">kndjkscgslk</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara">kndjkscgslk</p>
+        </div>
+    </div>
+</body>
+</html>
